@@ -8,7 +8,7 @@ public class Main {
 		//give them their score
 		Random rnd=new Random();
 		Scanner in=new Scanner(System.in);
-
+		
 	}
 
 }
