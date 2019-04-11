@@ -16,7 +16,10 @@ public class Main {
 		 * hZebart
 		 */
 		Scanner in=new Scanner(System.in);
-
+		String word=in.nextLine();
+		for (int x=0;x<word.length();x++) {
+			System.out.println(word.substring(x)+word.substring(0, x));
+		}
 	}
 
 }
